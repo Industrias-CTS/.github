@@ -47,7 +47,6 @@ _Herramientas de laboratorio y sandbox para protocolos industriales._
 | ---------------------------------------------------------- | --------------------------------------- | --------- |
 | [`ModbusLab`](https://github.com/Industrias-CTS/ModbusLab) | Laboratorio/sandbox para pruebas Modbus | ✅ Activo |
 
----
 
 #### 📊 Seguimiento
 
