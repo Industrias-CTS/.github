@@ -15,6 +15,7 @@ _Sistema HMI web para monitoreo y control industrial en tiempo real._
 | Repositorio                                                                | Descripción                                                                                         | Estado        |
 | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ------------- |
 | [`t-monitor`](https://github.com/Industrias-CTS/t-monitor)                 | Web HMI en JavaScript para monitoreo y control en tiempo real. Arquitectura modular multi-protocolo | ✅ Activo     |
+| [`modbus-manager`](https://github.com/Industrias-CTS/modbus-manager)       | Backend de comunicaciones Modbus para T-Monitor                                                     | ✅ Activo     |
 | [`custom-rpi-images`](https://github.com/Industrias-CTS/custom-rpi-images) | Imágenes personalizadas de Raspberry Pi para t-monitor                                              | ✅ Activo     |
 | [`HMI-TS`](https://github.com/Industrias-CTS/HMI-TS)                       | Interfaz HMI basada en TypeScript                                                                   | 🚫 Deprecated |
 
@@ -40,12 +41,21 @@ _Frontend y backend de la plataforma en la nube._
 
 #### 🔌 Desarrollo y Pruebas
 
-_Comunicación industrial, Modbus y herramientas de laboratorio._
+_Herramientas de laboratorio y sandbox para protocolos industriales._
 
-| Repositorio                                                          | Descripción                             | Estado    |
-| -------------------------------------------------------------------- | --------------------------------------- | --------- |
-| [`modbus-manager`](https://github.com/Industrias-CTS/modbus-manager) | Gestor de comunicaciones Modbus         | ✅ Activo |
-| [`ModbusLab`](https://github.com/Industrias-CTS/ModbusLab)           | Laboratorio/sandbox para pruebas Modbus | ✅ Activo |
+| Repositorio                                                | Descripción                             | Estado    |
+| ---------------------------------------------------------- | --------------------------------------- | --------- |
+| [`ModbusLab`](https://github.com/Industrias-CTS/ModbusLab) | Laboratorio/sandbox para pruebas Modbus | ✅ Activo |
+
+---
+
+#### 📊 Seguimiento
+
+_Herramientas de gestión y seguimiento interno._
+
+| Repositorio                                                    | Descripción                            | Estado    |
+| -------------------------------------------------------------- | -------------------------------------- | --------- |
+| [`cts-manager`](https://github.com/Industrias-CTS/cts-manager) | Herramienta de seguimiento interno CTS | ✅ Activo |
 
 #### 🤖 IA
 
@@ -71,20 +81,20 @@ _Aplicaciones de productividad, gestión y operaciones internas._
 | [`U-Draw`](https://github.com/Industrias-CTS/U-Draw)                                       | Herramienta de diseño de planos unifilares                                    | ✅ Activo     |
 | [`M-Configurator`](https://github.com/Industrias-CTS/M-Configurator)                       | Seleccionador y configurador de códigos metalmecanicos                        | ✅ Activo     |
 | [`M-Switch`](https://github.com/Industrias-CTS/M-Switch)                                   | Herramienta de diseño de productos de Media Tensión                           | ✅ Activo     |
-| [`cts-manager`](https://github.com/Industrias-CTS/cts-manager)                             | Sistema de gestión interno CTS Beta                                           | ✅ Activo     |
-| [`NEXUS`](https://github.com/Industrias-CTS/NEXUS)                                         | Centralizados de herramientas de ingeniería (Ofimatica)                       | ✅ Activo     |
+| [`NEXUS`](https://github.com/Industrias-CTS/NEXUS)                                         | Centralizador de herramientas de ingeniería (Ofimática)                       | ✅ Activo     |
 | [`Gantt-generator`](https://github.com/Industrias-CTS/Gantt-generator)                     | Cronograma de proyectos con diagrama de Gantt interactivo Beta                | 🚫 Deprecated |
 | [`P_Aplication`](https://github.com/Industrias-CTS/P_Aplication)                           | Software de gestión para creación y gestión de aplicaciones de proyectos Beta | 🚫 Deprecated |
 | [`Centro-de-mando-Ofimatica`](https://github.com/Industrias-CTS/Centro-de-mando-Ofimatica) | Centro de mando para herramientas ofimáticas                                  | ✅ Activo     |
-| [`C-Logic-v1`](https://github.com/Industrias-CTS/C-Logic-v1)                               | Herramienta de diseño de panos de comunicación (v1)                           | ✅ Activo     |
+| [`C-Logic-v1`](https://github.com/Industrias-CTS/C-Logic-v1)                               | Herramienta de diseño de planos de comunicación (v1)                          | ✅ Activo     |
 
 ---
 
 ### ⚙️ Departamento Odoo
 
-| Repositorio                                                    | Descripción                        | Estado    |
-| -------------------------------------------------------------- | ---------------------------------- | --------- |
-| [`odoo-docker`](https://github.com/Industrias-CTS/odoo-docker) | Configuración Docker para Odoo ERP | ✅ Activo |
+| Repositorio                                                                | Descripción                                     | Estado    |
+| -------------------------------------------------------------------------- | ----------------------------------------------- | --------- |
+| [`odoo-docker`](https://github.com/Industrias-CTS/odoo-docker)             | Configuración Docker para Odoo ERP              | ✅ Activo |
+| [`enterprise_folder`](https://github.com/Industrias-CTS/enterprise_folder) | Estructura de carpetas y recursos empresariales | —         |
 
 ---
 
@@ -92,11 +102,10 @@ _Aplicaciones de productividad, gestión y operaciones internas._
 
 _Recursos transversales accesibles por todos los departamentos._
 
-| Repositorio                                                                | Descripción                                     | Estado    |
-| -------------------------------------------------------------------------- | ----------------------------------------------- | --------- |
-| [`inventario`](https://github.com/Industrias-CTS/inventario)               | Sistema de control de inventario                | ✅ Activo |
-| [`.github`](https://github.com/Industrias-CTS/.github)                     | Perfil y configuración de la organización       | —         |
-| [`enterprise_folder`](https://github.com/Industrias-CTS/enterprise_folder) | Estructura de carpetas y recursos empresariales | —         |
+| Repositorio                                                  | Descripción                               | Estado    |
+| ------------------------------------------------------------ | ----------------------------------------- | --------- |
+| [`inventario`](https://github.com/Industrias-CTS/inventario) | Sistema de control de inventario          | ✅ Activo |
+| [`.github`](https://github.com/Industrias-CTS/.github)       | Perfil y configuración de la organización | —         |
 
 ---
 
@@ -118,25 +127,6 @@ _Recursos transversales accesibles por todos los departamentos._
 | **Code Review**           | Mínimo 1 approval antes de merge                |
 | **Documentación**         | Cada repo debe tener README actualizado         |
 | **Naming (repos nuevos)** | Prefijo por área si aplica (ej: `pae-proyecto`) |
-
----
-
-## 🔐 Estructura de Equipos (GitHub Teams)
-
-| Team                  | Departamento       | Acceso                                 |
-| --------------------- | ------------------ | -------------------------------------- |
-| `tad-software`        | Software           | Write en sus repos · Read en MC y Odoo |
-| `tad-mejora-continua` | Mejora Continua    | Write en sus repos · Read en SW y Odoo |
-| `tad-odoo`            | Odoo               | Write en sus repos · Read en SW y MC   |
-| `pae-dev`             | PAE (área externa) | Write en repos PAE · Sin acceso a TAD  |
-
----
-
-## 🔗 Links Útiles
-
-- 📋 [Projects de la organización](https://github.com/orgs/Industrias-CTS/projects)
-- 🔄 [Workflows n8n](https://github.com/Industrias-CTS/backup_n8n)
-- 📊 [NEXUS - Herramientas Excel](https://github.com/Industrias-CTS/NEXUS)
 
 ---
 
