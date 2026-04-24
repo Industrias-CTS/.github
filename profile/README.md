@@ -56,6 +56,14 @@ _Herramientas de gestión y seguimiento interno._
 | -------------------------------------------------------------- | -------------------------------------- | --------- |
 | [`cts-manager`](https://github.com/Industrias-CTS/cts-manager) | Herramienta de seguimiento interno CTS | ✅ Activo |
 
+#### ⚡ E-Panel
+
+_Plataforma web para el diseño integral de tableros eléctricos industriales._
+
+| Repositorio                                                    | Descripción                                                                                                                  | Estado    |
+| -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | --------- |
+| [`E-Panel`](https://github.com/Industrias-CTS/E-Panel)         | Plataforma unificada que digitaliza el flujo completo de diseño de tableros: configuración de envolvente, selección de equipos Schneider Electric, canvas metalmecánico interactivo y generación automática de BOM y planos exportables a PDF. Reemplaza las herramientas basadas en Excel para las líneas G-Flex y T-Power. | ✅ Activo |
+
 #### 🤖 IA
 
 _Automatización inteligente y workflows._
