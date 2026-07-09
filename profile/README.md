@@ -4,115 +4,184 @@
 
 ---
 
-## 🗺️ Mapa de Repositorios
+## 📋 Contenidos
 
-### 💻 Departamento de Software
+- [Departamento de Software](#-departamento-de-software)
+  - [T-Monitor](#-t-monitor)
+  - [M-System](#-m-system)
+  - [QR-Cloud](#-qr-cloud)
+  - [Desarrollo y Pruebas](#-desarrollo-y-pruebas)
+  - [Seguimiento](#-seguimiento)
+  - [E-Panel](#-e-panel)
+  - [IA](#-ia)
+- [Departamento de Mejora Continua](#-departamento-de-mejora-continua)
+  - [Herramientas de Ingeniería](#-herramientas-de-ingeniería-ofimática)
+- [Departamento Odoo](#-departamento-odoo)
+- [Repositorios Compartidos](#-repositorios-compartidos)
+- [Quick Start](#-quick-start-para-nuevos-miembros)
+- [Convenciones](#-convenciones)
 
-#### 🖥️ T-Monitor
+---
+
+## 💻 Departamento de Software
+
+### 🖥️ T-Monitor
 
 _Sistema HMI web para monitoreo y control industrial en tiempo real._
 
-| Repositorio                                                                | Descripción                                                                                         | Estado        |
-| -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ------------- |
-| [`t-monitor`](https://github.com/Industrias-CTS/t-monitor)                 | Web HMI en JavaScript para monitoreo y control en tiempo real. Arquitectura modular multi-protocolo | ✅ Activo     |
-| [`modbus-manager`](https://github.com/Industrias-CTS/modbus-manager)       | Backend de comunicaciones Modbus para T-Monitor                                                     | ✅ Activo     |
-| [`custom-rpi-images`](https://github.com/Industrias-CTS/custom-rpi-images) | Imágenes personalizadas de Raspberry Pi para t-monitor                                              | ✅ Activo     |
-| [`HMI-TS`](https://github.com/Industrias-CTS/HMI-TS)                       | Interfaz HMI basada en TypeScript                                                                   | 🚫 Deprecated |
+**[t-monitor](https://github.com/Industrias-CTS/t-monitor)** · JavaScript · ✅ Activo  
+Web HMI para monitoreo y control en tiempo real. Arquitectura modular multi-protocolo
 
-#### 📡 M-System
+**[modbus-manager](https://github.com/Industrias-CTS/modbus-manager)** · Backend · ✅ Activo  
+Backend de comunicaciones Modbus para T-Monitor
+
+**[custom-rpi-images](https://github.com/Industrias-CTS/custom-rpi-images)** · DevOps · ✅ Activo  
+Imágenes personalizadas de Raspberry Pi para t-monitor
+
+**[HMI-TS](https://github.com/Industrias-CTS/HMI-TS)** · TypeScript · 🚫 Deprecated  
+Interfaz HMI basada en TypeScript
+
+---
+
+### 📡 M-System
 
 _Suite de aplicaciones del sistema M e integraciones IoT._
 
-| Repositorio                                                                  | Descripción                                                | Estado        |
-| ---------------------------------------------------------------------------- | ---------------------------------------------------------- | ------------- |
-| [`M-System`](https://github.com/Industrias-CTS/M-System)                     | Sistema core de la suite M                                 | ✅ Activo     |
-| [`M-Client`](https://github.com/Industrias-CTS/M-Client)                     | Aplicación cliente de M-System                             | ✅ Activo     |
-| [`tago-widgets`](https://github.com/Industrias-CTS/tago-widgets)             | Widgets personalizados para plataforma TagoIO              | 🚫 Deprecated |
-| [`devices-recognizer`](https://github.com/Industrias-CTS/devices-recognizer) | Identificación y reconocimiento automático de dispositivos | ✅ Activo     |
+**[M-System](https://github.com/Industrias-CTS/M-System)** · Core · ✅ Activo  
+Sistema core de la suite M
 
-#### ☁️ QR-Cloud
+**[M-Client](https://github.com/Industrias-CTS/M-Client)** · Cliente · ✅ Activo  
+Aplicación cliente de M-System
+
+**[tago-widgets](https://github.com/Industrias-CTS/tago-widgets)** · Widgets · 🚫 Deprecated  
+Widgets personalizados para plataforma TagoIO
+
+**[devices-recognizer](https://github.com/Industrias-CTS/devices-recognizer)** · IoT · ✅ Activo  
+Identificación y reconocimiento automático de dispositivos
+
+---
+
+### ☁️ QR-Cloud
 
 _Frontend y backend de la plataforma en la nube._
 
-| Repositorio                                                    | Descripción                          | Estado    |
-| -------------------------------------------------------------- | ------------------------------------ | --------- |
-| [`cloud-front`](https://github.com/Industrias-CTS/cloud-front) | Frontend de la plataforma cloud      | ✅ Activo |
-| [`cloud-back`](https://github.com/Industrias-CTS/cloud-back)   | Backend / API de la plataforma cloud | ✅ Activo |
+**[cloud-front](https://github.com/Industrias-CTS/cloud-front)** · Frontend · ✅ Activo  
+Frontend de la plataforma cloud
 
-#### 🔌 Desarrollo y Pruebas
+**[cloud-back](https://github.com/Industrias-CTS/cloud-back)** · Backend · ✅ Activo  
+Backend / API de la plataforma cloud
+
+---
+
+### 🔌 Desarrollo y Pruebas
 
 _Herramientas de laboratorio y sandbox para protocolos industriales._
 
-| Repositorio                                                | Descripción                             | Estado    |
-| ---------------------------------------------------------- | --------------------------------------- | --------- |
-| [`ModbusLab`](https://github.com/Industrias-CTS/ModbusLab) | Laboratorio/sandbox para pruebas Modbus | ✅ Activo |
+**[ModbusLab](https://github.com/Industrias-CTS/ModbusLab)** · Testing · ✅ Activo  
+Laboratorio/sandbox para pruebas Modbus
 
+---
 
-#### 📊 Seguimiento
+### 📊 Seguimiento
 
 _Herramientas de gestión y seguimiento interno._
 
-| Repositorio                                                    | Descripción                            | Estado    |
-| -------------------------------------------------------------- | -------------------------------------- | --------- |
-| [`cts-manager`](https://github.com/Industrias-CTS/cts-manager) | Herramienta de seguimiento interno CTS | ✅ Activo |
+**[cts-manager](https://github.com/Industrias-CTS/cts-manager)** · Gestión · ✅ Activo  
+Herramienta de seguimiento interno CTS
 
-#### ⚡ E-Panel
+---
+
+### 📌 W-Flow
+
+_Aplicativo web para la gestión administrativa de proyectos para equipos. Como Monday software._
+
+**[W-Flow](https://github.com/Industrias-CTS/W-Flow)** · Web · ✅ Activo  
+Organizador de proyectos y equipos
+
+### ⏰ G-Cron
+
+_Aplicativo para crear o importar diagramas de Gantt._
+
+**[G-Cron](https://github.com/Industrias-CTS/G-Cron)** · Web · ✅ Activo  
+
+### ⚡ E-Panel
 
 _Plataforma web para el diseño integral de tableros eléctricos industriales._
 
-| Repositorio                                                    | Descripción                                                                                                                  | Estado    |
-| -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | --------- |
-| [`E-Panel`](https://github.com/Industrias-CTS/E-Panel)         | Plataforma unificada que digitaliza el flujo completo de diseño de tableros: configuración de envolvente, selección de equipos Schneider Electric, canvas metalmecánico interactivo y generación automática de BOM y planos exportables a PDF. Reemplaza las herramientas basadas en Excel para las líneas G-Flex y T-Power. | ✅ Activo |
+**[E-Panel](https://github.com/Industrias-CTS/E-Panel)** · Web · ✅ Activo  
+Plataforma unificada que digitaliza el flujo completo de diseño de tableros: configuración de envolvente, selección de equipos Schneider Electric, canvas metalmecánico interactivo y generación automática de BOM y planos exportables a PDF. Reemplaza herramientas basadas en Excel para líneas G-Flex y T-Power.
 
-#### 🤖 IA
+---
+
+### 🤖 IA
 
 _Automatización inteligente y workflows._
 
-| Repositorio                                                                  | Descripción                              | Estado    |
-| ---------------------------------------------------------------------------- | ---------------------------------------- | --------- |
-| [`backup_n8n`](https://github.com/Industrias-CTS/backup_n8n)                 | Respaldo de workflows de n8n             | ✅ Activo |
-| [`cv_classifier_rrhh`](https://github.com/Industrias-CTS/cv_classifier_rrhh) | Clasificador automático de CVs para RRHH | ✅ Activo |
+**[backup_n8n](https://github.com/Industrias-CTS/backup_n8n)** · n8n · ✅ Activo  
+Respaldo de workflows de n8n
+
+**[cv_classifier_rrhh](https://github.com/Industrias-CTS/cv_classifier_rrhh)** · ML · ✅ Activo  
+Clasificador automático de CVs para RRHH
 
 ---
 
-### 📐 Departamento de Mejora Continua
+## 📐 Departamento de Mejora Continua
 
-#### 🛠️ Herramientas de Ingeniería (Ofimática)
+### 🛠️ Herramientas de Ingeniería (Ofimática)
 
-_Aplicaciones de productividad, gestión y operaciones internas._
+_Aplicaciones de productividad, gestión y operaciones internas, basadas en VBA (Visual Basic)
 
-| Repositorio                                                                                | Descripción                                                                   | Estado        |
-| ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------- | ------------- |
-| [`E-Panel-Lite-v2`](https://github.com/Industrias-CTS/E-Panel-Lite-v2)                     | Herramienta para el diseños mecanicos (Layout) (v2)                           | ✅ Activo     |
-| [`E-Panel-Lite`](https://github.com/Industrias-CTS/E-Panel-Lite)                           | Herramienta para el diseños mecanicos (Layout) (v1)                           | ⚠️ Verificar  |
-| [`U-Draw`](https://github.com/Industrias-CTS/U-Draw)                                       | Herramienta de diseño de planos unifilares                                    | ✅ Activo     |
-| [`M-Configurator`](https://github.com/Industrias-CTS/M-Configurator)                       | Seleccionador y configurador de códigos metalmecanicos                        | ✅ Activo     |
-| [`M-Switch`](https://github.com/Industrias-CTS/M-Switch)                                   | Herramienta de diseño de productos de Media Tensión                           | ✅ Activo     |
-| [`NEXUS`](https://github.com/Industrias-CTS/NEXUS)                                         | Centralizador de herramientas de ingeniería (Ofimática)                       | ✅ Activo     |
-| [`Gantt-generator`](https://github.com/Industrias-CTS/Gantt-generator)                     | Cronograma de proyectos con diagrama de Gantt interactivo Beta                | 🚫 Deprecated |
-| [`P_Aplication`](https://github.com/Industrias-CTS/P_Aplication)                           | Software de gestión para creación y gestión de aplicaciones de proyectos Beta | 🚫 Deprecated |
-| [`Centro-de-mando-Ofimatica`](https://github.com/Industrias-CTS/Centro-de-mando-Ofimatica) | Centro de mando para herramientas ofimáticas                                  | ✅ Activo     |
-| [`C-Logic-v1`](https://github.com/Industrias-CTS/C-Logic-v1)                               | Herramienta de diseño de planos de comunicación (v1)                          | ✅ Activo     |
+**[E-Panel-Lite-v2](https://github.com/Industrias-CTS/E-Panel-Lite-v2)** · Diseño · ✅ Activo  
+Herramienta para diseños mecánicos (Layout) v2
+
+**[E-Panel-Lite](https://github.com/Industrias-CTS/E-Panel-Lite)** · Diseño · ⚠️ Verificar  
+Herramienta para diseños mecánicos (Layout) v1
+
+**[U-Draw](https://github.com/Industrias-CTS/U-Draw)** · Esquemática · ✅ Activo  
+Herramienta de diseño de planos unifilares
+
+**[M-Configurator](https://github.com/Industrias-CTS/M-Configurator)** · Config · ✅ Activo  
+Seleccionador y configurador de códigos metalmecánicos
+
+**[M-Switch](https://github.com/Industrias-CTS/M-Switch)** · Diseño · ✅ Activo  
+Herramienta de diseño de productos de Media Tensión
+
+**[NEXUS](https://github.com/Industrias-CTS/NEXUS)** · Hub · ✅ Activo  
+Centralizador de herramientas de ingeniería (Ofimática)
+
+**[Gantt-generator](https://github.com/Industrias-CTS/Gantt-generator)** · Cronograma · 🚫 Deprecated  
+Cronograma de proyectos con diagrama de Gantt interactivo Beta
+
+**[P_Aplication](https://github.com/Industrias-CTS/P_Aplication)** · Gestión · 🚫 Deprecated  
+Software de gestión para creación y gestión de aplicaciones de proyectos Beta
+
+**[Centro-de-mando-Ofimatica](https://github.com/Industrias-CTS/Centro-de-mando-Ofimatica)** · Control · ✅ Activo  
+Centro de mando para herramientas ofimáticas
+
+**[C-Logic-v1](https://github.com/Industrias-CTS/C-Logic-v1)** · Comunicación · ✅ Activo  
+Herramienta de diseño de planos de comunicación v1
 
 ---
 
-### ⚙️ Departamento Odoo
+## ⚙️ Departamento Odoo
 
-| Repositorio                                                                | Descripción                                     | Estado    |
-| -------------------------------------------------------------------------- | ----------------------------------------------- | --------- |
-| [`odoo-docker`](https://github.com/Industrias-CTS/odoo-docker)             | Configuración Docker para Odoo ERP              | ✅ Activo |
-| [`enterprise_folder`](https://github.com/Industrias-CTS/enterprise_folder) | Estructura de carpetas y recursos empresariales | —         |
+**[odoo-docker](https://github.com/Industrias-CTS/odoo-docker)** · Docker · ✅ Activo  
+Configuración Docker para Odoo ERP
+
+**[enterprise_folder](https://github.com/Industrias-CTS/enterprise_folder)** · Resources · —  
+Estructura de carpetas y recursos empresariales
 
 ---
 
-### 🔗 Repositorios Compartidos
+## 🔗 Repositorios Compartidos
 
 _Recursos transversales accesibles por todos los departamentos._
 
-| Repositorio                                                  | Descripción                               | Estado    |
-| ------------------------------------------------------------ | ----------------------------------------- | --------- |
-| [`inventario`](https://github.com/Industrias-CTS/inventario) | Sistema de control de inventario          | ✅ Activo |
-| [`.github`](https://github.com/Industrias-CTS/.github)       | Perfil y configuración de la organización | —         |
+**[inventario](https://github.com/Industrias-CTS/inventario)** · Control · ✅ Activo  
+Sistema de control de inventario
+
+**[.github](https://github.com/Industrias-CTS/.github)** · Org · —  
+Perfil y configuración de la organización
 
 ---
 
@@ -125,7 +194,7 @@ _Recursos transversales accesibles por todos los departamentos._
 
 ---
 
-## 📐 Convenciones
+## 📐 Convenciones Generales
 
 | Aspecto                   | Convención                                      |
 | ------------------------- | ----------------------------------------------- |
@@ -133,8 +202,9 @@ _Recursos transversales accesibles por todos los departamentos._
 | **Commits**               | Mensajes descriptivos en español o inglés       |
 | **Code Review**           | Mínimo 1 approval antes de merge                |
 | **Documentación**         | Cada repo debe tener README actualizado         |
+| **Agentes**               | CLAUDE debe estar en la raíz y actualizado      |
 | **Naming (repos nuevos)** | Prefijo por área si aplica (ej: `pae-proyecto`) |
 
 ---
 
-<sub>📅 Última actualización: Abril 2026 · Mantenido por el equipo de desarrollo de Industrias CTS</sub>
+<sub>📅 Última actualización: Julio 2026 · Mantenido por el equipo de desarrollo de Industrias CTS</sub>
