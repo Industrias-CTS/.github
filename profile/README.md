@@ -82,27 +82,22 @@ Laboratorio/sandbox para pruebas Modbus
 
 ---
 
-### 📊 Seguimiento
+### 📊 W-Flow
 
 _Herramientas de gestión y seguimiento interno._
 
 **[cts-manager](https://github.com/Industrias-CTS/cts-manager)** · Gestión · ✅ Activo  
-Herramienta de seguimiento interno CTS
+Herramienta de seguimiento interno de proyectos y equipos en CTS, públicamente conocida como W-Flow
 
 ---
-
-### 📌 W-Flow
-
-_Aplicativo web para la gestión administrativa de proyectos para equipos. Como Monday software._
-
-**[W-Flow](https://github.com/Industrias-CTS/W-Flow)** · Web · ✅ Activo  
-Organizador de proyectos y equipos
 
 ### ⏰ G-Cron
 
 _Aplicativo para crear o importar diagramas de Gantt._
 
-**[G-Cron](https://github.com/Industrias-CTS/G-Cron)** · Web · ✅ Activo  
+**[G-Cron](https://github.com/Industrias-CTS/G-Cron)** · Web · ✅ Activo
+
+---
 
 ### ⚡ E-Panel
 
@@ -110,6 +105,9 @@ _Plataforma web para el diseño integral de tableros eléctricos industriales._
 
 **[E-Panel](https://github.com/Industrias-CTS/E-Panel)** · Web · ✅ Activo  
 Plataforma unificada que digitaliza el flujo completo de diseño de tableros: configuración de envolvente, selección de equipos Schneider Electric, canvas metalmecánico interactivo y generación automática de BOM y planos exportables a PDF. Reemplaza herramientas basadas en Excel para líneas G-Flex y T-Power.
+
+**[Prototipado Mui](https://github.com/Industrias-CTS/prototipado-mui-app)** · Web · ✅ Activo  
+Implementación únicamente de componentes, utilizando la libería Mui para el E-Panel.
 
 ---
 
