@@ -11,7 +11,8 @@
   - [M-System](#-m-system)
   - [QR-Cloud](#-qr-cloud)
   - [Desarrollo y Pruebas](#-desarrollo-y-pruebas)
-  - [Seguimiento](#-seguimiento)
+  - [W-Flow](#-w-flow)
+  - [G-Cron](#-g-cron)
   - [E-Panel](#-e-panel)
   - [IA](#-ia)
 - [Departamento de Mejora Continua](#-departamento-de-mejora-continua)
@@ -19,7 +20,7 @@
 - [Departamento Odoo](#-departamento-odoo)
 - [Repositorios Compartidos](#-repositorios-compartidos)
 - [Quick Start](#-quick-start-para-nuevos-miembros)
-- [Convenciones](#-convenciones)
+- [Convenciones](#-convenciones-generales)
 
 ---
 
@@ -120,6 +121,13 @@ Respaldo de workflows de n8n
 
 **[cv_classifier_rrhh](https://github.com/Industrias-CTS/cv_classifier_rrhh)** · ML · ✅ Activo  
 Clasificador automático de CVs para RRHH
+
+
+### Productos en Línea 🖧
+
+**Sistema de diseño de CTS**: `https://diseno-cts.dnexus.cloud/`
+
+**Simulador de monitores**: `https://t-monitor.dnexus.cloud/monitoring`
 
 ---
 
